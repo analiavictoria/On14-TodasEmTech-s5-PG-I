@@ -1,30 +1,62 @@
-//cria o array de objetos estudantes 
-const livros = [
+//Cria o array de objetos
+const books = [
     {
-      nome: 'incluir'
+      nome: 'Sistemas de Banco de Dados',
+      categoria: 'Computacao',
+      paginas: 711,
+      recomendo: true,
+      leu: true
     },
     {
-      nome: 'incluir'
+      nome: 'Código Limpo',
+      categoria: 'Computacao',
+      paginas: 425,
+      recomendo: false,
+      leu: false
     },
     {
-      nome: 'incluir'
+      nome: 'Design Patterns',
+      categoria: 'Computacao',
+      paginas: 416,
+      recomendo: false,
+      leu: false
     },
     {
-      nome: 'incluir'
+      nome: 'JavaScript: The Good Parts',
+      categoria: 'Computacao',
+      paginas: 176,
+      recomendo: false,
+      leu: false
     },
     {
-      nome: 'incluir'
+      nome: 'O diário de Anne Frank',
+      categoria: 'Biografia',
+      paginas: 352,
+      recomendo: true,
+      leu: true
     },
     {
-      nome: 'incluir'
+      nome: 'O conto da Aia',
+      categoria: 'Ficcao',
+      paginas: 384,
+      recomendo: true,
+      leu: true
     },
     {
-      nome: 'incluir'
+      nome: 'Harry Potter e as Relíquias da Morte',
+      categoria: 'Fantasia',
+      paginas: 592,
+      recomendo: true,
+      leu: true
     },
     {
-      nome: 'incluir'
+      nome: 'O vôo da guará vermelha',
+      categoria: 'Romance',
+      paginas: 160,
+      recomendo: true,
+      leu: true
     },
 ]
 
-//exporta o array de objetos estudantes
-module.exports = livros
+//Exporta o array de objetos
+module.exports = books
